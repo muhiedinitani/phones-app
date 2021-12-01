@@ -4,5 +4,4 @@ Rails.application.routes.draw do
   get "/phones/new" => "phones#new"
   post "/phones" => "phones#create"
   get "/phones/:id" => "phones#show"
-
 end
